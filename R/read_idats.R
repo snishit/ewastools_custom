@@ -49,7 +49,7 @@ read_idats <- function(idat_files,quiet=FALSE){
         manifest = data.table::copy(ewastools:::manifest_epic)
         controls = data.table::copy(ewastools:::controls_epic)
     }
-    else if(P==1105209)
+    else if(P==1114142)
     {
         platform="EPIC_v2"
         manifest = data.table::copy(ewastools:::manifest_epic_v2)
