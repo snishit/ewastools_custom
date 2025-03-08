@@ -67,7 +67,7 @@ read_idats <- function(idat_files,quiet=FALSE){
         platform="UNK"
     }
 
-    setkeyv(manifest,c("chr","mapinfo"))
+    #setkeyv(manifest,c("chr","mapinfo"))
     manifest[,index:=1L:.N]
     controls[,index:=1L:.N]
 
